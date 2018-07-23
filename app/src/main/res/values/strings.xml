@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Dream App</string>
+
+    <!--Header-->
+    <string name="sample_title">Title</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="survey">Survey</string>
+    <string name="reports">Reports</string>
+    <string name="profile">Profile</string>
+
+    <!-- Misc -->
+    <string name="exit_toast">Press again to exit!</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+
+    <!--Survey-->
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="question">Pre-Evaluation Survey</string>
+    <string name="survey_entry">These is a mandatory survey which helps us to know your health situation. Do you want to take it now?</string>
+    <string name="end_survey">Do you want to skip this survey?</string>
+</resources>

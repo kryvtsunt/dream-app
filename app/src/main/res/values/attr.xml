@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="ProgresUnReachColor" format="color" />
+    <attr name="HorizontalProgresUnReachHeight" format="dimension" />
+    <attr name="HorizontalProgresReachColor" format="color" />
+    <attr name="HorizontalProgresUnReachColor" format="color" />
+
+    <attr name="HorizontalProgresReachHeight" format="dimension" />
+    <attr name="HorizontalProgresTextColor" format="color" />
+    <attr name="HorizontalProgresTextSize" format="dimension" />
+    <attr name="HorizontalProgresTextOffset" format="dimension" />
+
+    <declare-styleable name="CustomHorizontalProgresStyle">
+        <attr name="HorizontalProgresUnReachColor" />
+        <attr name="HorizontalProgresUnReachHeight" />
+        <attr name="HorizontalProgresReachColor" />
+        <attr name="HorizontalProgresReachHeight" />
+        <attr name="HorizontalProgresTextColor" />
+        <attr name="HorizontalProgresTextSize" />
+        <attr name="HorizontalProgresTextOffset" />
+
+    </declare-styleable>
+
+
+    <declare-styleable name="CustomCircleProgresStyle">
+        <attr name="CustomCircleRadio" format="dimension" />
+        <attr name="CustomReachPaintStroken" format="dimension" />
+        <attr name="CustomUnReachPaintStroken" format="dimension" />
+        <attr name="CustomUnReachEnd" format="integer" />
+        <attr name="CustomUnReachStart" format="integer" />
+        <attr name="CustomHasProgressNum" format="boolean" />
+
+    </declare-styleable>
+
+    <!--RoundImageView相关-->
+    <attr name="borderRadius" format="dimension" />
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+    </declare-styleable>
+
+    <declare-styleable name="roundedimageview">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color" />
+    </declare-styleable>
+
+</resources>

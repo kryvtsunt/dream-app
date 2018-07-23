@@ -1,0 +1,36 @@
+<html>
+
+<head>
+  <title>Dream App</title>
+  <script type="text/javascript" src="./loader.js">
+  </script>
+  <script type="text/javascript">
+    google.charts.load('current', {
+      packages: ['corechart']
+    });
+  </script>
+</head>
+
+<body>
+  <div id="container" style="width: 550px; height: 400px; margin: 0 auto">
+  </div>
+  <script language="JavaScript">
+    function drawChart() {
+      // Define the chart to be drawn.
+      var data = google.visualization.arrayToDataTable([
+        [#DataTable#]
+      ]);
+
+      var options = {
+        title: 'Pre-Evaluation vs Post-Evaluation'
+      };
+
+      // Instantiate and draw the chart.
+      var chart = new google.visualization.ColumnChart(document.getElementById('container'));
+      chart.draw(data, options);
+    }
+    google.charts.setOnLoadCallback(drawChart);
+  </script>
+</body>
+
+</html>

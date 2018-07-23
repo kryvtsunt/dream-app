@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_header" />
+
+    <edu.neu.dreamapp.widget.CustomProgressBar
+        android:id="@+id/horizontalProgress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+        android:progress="0"
+        app:HorizontalProgresReachColor="@color/primary_darker"
+        app:HorizontalProgresTextColor="@color/primary_darker"
+        app:HorizontalProgresUnReachColor="#30FFCE00" />
+
+    <fragment
+        android:id="@+id/surveyFragment"
+        android:name="edu.neu.dreamapp.survey.SurveyFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_survey" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnPrevious"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_survey_button"
+            android:text="@string/previous"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_survey_button"
+            android:text="@string/next"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>
