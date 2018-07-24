@@ -1,5 +1,8 @@
 # Dream App
 
+## Collaborators:
+Ankur Bag (ankurbag), Annurag Singh (Anurag0212), Rohit Agrawal (agrawroh)
+
 ## What it does
 It is an app to convert the data into digitized form skipping the manual intervention. Recording evaluation and attendance data from each program (approximately 70 per year) is a critical part of how DPV maintains program quality and gauges its impact.
 
